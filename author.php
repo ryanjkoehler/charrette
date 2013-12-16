@@ -293,7 +293,7 @@
 						<div class="elseblock">
 						<div class="line drawer">
 							<div class="unit size1of1 lastUnit">
-							<div class="avatarcircle"><?php echo '<a href="?author=' . get_the_author_meta('ID') . '"' . 'title="' . get_the_author_meta('nickname') . '">' . get_avatar( get_the_author_meta('ID'), $size = '120' ); 
+							<div class="avatarcircle"><?php echo '<a href="?author=' . get_the_author_meta('ID') . '"' . ' title="' . get_the_author_meta('nickname') . '">' . get_avatar( get_the_author_meta('ID'), $size = '120' ); 
 		   ?></a><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>  <a href="<?php echo get_day_link($arc_year, $arc_month, $arc_day); ?>" class="grey lucida marginleft10"><?php echo ff_rel_time(); ?></a></h2></div>
 							</div>
 						</div>
